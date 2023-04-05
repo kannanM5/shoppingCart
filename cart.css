@@ -1,0 +1,82 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(209, 201, 201);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(white, gray);
+  padding: 9px;
+  align-items: center;
+}
+p {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+p:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: linear-gradient(white, grey);
+}
+img {
+  width: 280px;
+  padding: 15px;
+}
+img:hover {
+  border: 2px solid black;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+#cart {
+  padding: 8px 10px;
+  background-color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}
+#cart:hover {
+  background-color: grey;
+  color: white;
+  transition: 0.15s;
+}
+i {
+  font-size: 16px;
+  position: relative;
+}
+#empty {
+  position: absolute;
+  padding: 3px 3px;
+  top: 8px;
+  background-color: rgb(245, 164, 164);
+  right: 8px;
+  font-size: 15px;
+  font-size: 10px;
+  display: none;
+}
+button {
+  padding: 5px 30px;
+  width: 90%;
+  background-color: rgba(167, 162, 167, 0.993);
+  color: rgb(77, 66, 66);
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(247, 235, 235);
+  color: black;
+}
+.main {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+}
+#selectedproduct {
+  display: block;
+}
